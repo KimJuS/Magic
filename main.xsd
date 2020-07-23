@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="xsl:stylesheet">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="xsl:output"/>
+        <xs:element ref="xsl:template"/>
+      </xs:sequence>
+      <xs:attribute name="version" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="xsl:output">
+    <xs:complexType>
+      <xs:attribute name="method" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="xsl:template">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="html"/>
+      </xs:sequence>
+      <xs:attribute name="match" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="html">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="body"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="body">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="p"/>
+        <xs:element ref="table" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="p">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="a"/>
+      </xs:sequence>
+      <xs:attribute name="style" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="a">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="h3" type="xs:string"/>
+        <xs:element ref="img" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute name="href" type="xs:string" use="required"/>
+      <xs:attribute name="target" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="img">
+    <xs:complexType>
+      <xs:attribute name="align" type="xs:string" use="required"/>
+      <xs:attribute name="height" type="xs:string" use="required"/>
+      <xs:attribute name="src" type="xs:string" use="required"/>
+      <xs:attribute name="width" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="table">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="tr"/>
+      </xs:sequence>
+      <xs:attribute name="align" type="xs:string" use="required"/>
+      <xs:attribute name="border" type="xs:string" use="required"/>
+      <xs:attribute name="cellpadding" type="xs:string"/>
+      <xs:attribute name="cellspacing" type="xs:string"/>
+      <xs:attribute name="frame" type="xs:string"/>
+      <xs:attribute name="width" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tr">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="td" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="td">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="a" minOccurs="0"/>
+        <xs:element ref="iframe"/>
+      </xs:sequence>
+      <xs:attribute name="align" type="xs:string"/>
+      <xs:attribute name="width" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="iframe">
+    <xs:complexType>
+      <xs:attribute name="height" type="xs:string" use="required"/>
+      <xs:attribute name="name" type="xs:string" use="required"/>
+      <xs:attribute name="src" type="xs:string" use="required"/>
+      <xs:attribute name="width" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

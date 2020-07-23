@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Magic_Kinds.xsl"?>
+<Magic_Kinds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Magic_Kinds.xsd">
+	<Kinds>
+		<title>
+			<name> Micro Magic </name>
+			<tool> 카드, 동전, 스펀지볼, 링 등등...</tool>
+			<k_magician> 최현우, ALT, 박설하, 김치 </k_magician>
+			<k_prize> 
+				<prize_2003>2003년</prize_2003>
+				<prize_2006>2006년</prize_2006>
+				<prize_2009>2009년</prize_2009>
+				<prize_2012>2012년</prize_2012>
+				<prize_2015>2015년 - Seol Park(박설하), DK(김경덕)</prize_2015>
+				<prize_2018>2018년 - DK(김경덕)</prize_2018>
+			</k_prize>
+			<last_prize> Eric Chien(타이완) </last_prize>
+			<image file="Magic_Kinds/Micro.jpg" width="300" height="200" />
+		</title>
+		<title>
+			<name> General Magic </name>
+			<tool> 카드, 볼, 링, 비둘기 등등...</tool>
+			<k_magician> 이은결, 김영민, 이훈 </k_magician>
+			<k_prize>
+				<prize_2003>2003년</prize_2003>
+				<prize_2006>2006년 - LeeEunGyeol(이은결)</prize_2006>
+				<prize_2009>2009년</prize_2009>
+				<prize_2012>2012년 - Haon Gun(하원근)</prize_2012>
+				<prize_2015>2015년 - KimYoungMin(김영민), LeeHun(이훈)</prize_2015>
+				<prize_2018>2018년 - Read Chang(장해석), HanManHo(한만호)</prize_2018>
+			</k_prize>
+			<last_prize> Miguel Munoz(스페인) </last_prize>
+			<image file="Magic_Kinds/General.jpg" width="300" height="200" />
+		</title>
+		<title>
+			<name> Manipulation Magic</name>
+			<tool> 카드, 볼, 지폐, 우산 등등...</tool>
+			<k_magician> 안하림, 이훈, 루카스, 유호진 </k_magician>
+			<k_prize>
+				<prize_2003>2003년 - LeeEunGyeol(이은결)</prize_2003>
+				<prize_2006>2006년</prize_2006>
+				<prize_2009>2009년 - HanSeolHui(한설희), AnHaLim(안하림)</prize_2009>
+				<prize_2012>2012년 - YuHoJin(유호진), Lukas(이기석), KimHyunJun(김현준)</prize_2012>
+				<prize_2015>2015년 - Lukas(이기석), LeeChangMin(이창민)</prize_2015>
+				<prize_2018>2018년 - AnHaLim(안하림)</prize_2018>
+			</k_prize>
+			<last_prize> 안하림(한국) </last_prize>  
+			<image file="Magic_Kinds/Manipulation.jpg" width="300" height="200" />
+		</title>
+		<title>
+			<name> Illusion Magic</name>
+			<tool> 분리, 공중부양, 순간이동 등등...</tool>
+			<k_magician> 이은결, 최현우 </k_magician>
+			<k_prize>
+				<prize_2003>2003년</prize_2003>
+				<prize_2006>2006년</prize_2006>
+				<prize_2009>2009년</prize_2009>
+				<prize_2012>2012년</prize_2012>
+				<prize_2015>2015년</prize_2015>
+				<prize_2018>2018년</prize_2018>
+			</k_prize>
+			<last_prize> Yunke(스페인) </last_prize>  
+			<image file="Magic_Kinds/Illusion.jpg" width="300" height="200" />
+		</title>
+		<title>
+			<name> Mentalism Magic</name>
+			<tool> Everything </tool>
+			<k_magician> RYO, 최현우, 이준형 </k_magician>
+			<k_prize>
+				<prize_2003>2003년</prize_2003>
+				<prize_2006>2006년</prize_2006>
+				<prize_2009>2009년</prize_2009>
+				<prize_2012>2012년</prize_2012>
+				<prize_2015>2015년</prize_2015>
+				<prize_2018>2018년</prize_2018>
+			</k_prize>
+			<last_prize> Javier Botia(스페인) </last_prize>  
+			<image file="Magic_Kinds/Mentalism.jpg" width="300" height="200" />
+		</title>
+		<title>
+			<name> Comedy Magic</name>
+			<tool> 지팡이, 볼, 완드 등등... </tool>
+			<k_magician> 양재혁 </k_magician>
+			<k_prize>
+				<prize_2003>2003년</prize_2003>
+				<prize_2006>2006년</prize_2006>
+				<prize_2009>2009년</prize_2009>
+				<prize_2012>2012년</prize_2012>
+				<prize_2015>2015년</prize_2015>
+				<prize_2018>2018년</prize_2018>
+			</k_prize>
+			<last_prize> Nathalie Romier(프랑스) </last_prize>  
+			<image file="Magic_Kinds/Comedy.png" width="300" height="200" />
+		</title>
+		<title>
+			<name> Close-Up Card Magic</name>
+			<tool> 카드 </tool>
+			<k_magician> 유현민, 최현우, 매직브라더스 </k_magician>
+			<k_prize>
+				<prize_2003>2003년</prize_2003>
+				<prize_2006>2006년</prize_2006>
+				<prize_2009>2009년</prize_2009>
+				<prize_2012>2012년 - Zeki Yoo(유현민)</prize_2012>
+				<prize_2015>2015년</prize_2015>
+				<prize_2018>2018년</prize_2018>
+			</k_prize>
+			<last_prize> Bill Cheung(중국) </last_prize>  
+			<image file="Magic_Kinds/CloseUp.jpg" width="300" height="200" />
+		</title>
+		<title>
+			<name> Palor Magic</name>
+			<tool> 관객과 함께 하는 마술 </tool>
+			<k_magician> 매직브라더스 </k_magician>
+			<k_prize> 
+				<prize_2003>2003년</prize_2003>
+				<prize_2006>2006년</prize_2006>
+				<prize_2009>2009년</prize_2009>
+				<prize_2012>2012년</prize_2012>
+				<prize_2015>2015년 - Magic Brothers(박민호 n 최신혁)</prize_2015>
+				<prize_2018>2018년</prize_2018>
+			</k_prize>
+			<last_prize> Marc Weide(독일) </last_prize>  
+			<image file="Magic_Kinds/Palor.jpeg" width="300" height="200" />
+		</title>
+	</Kinds>
+</Magic_Kinds>

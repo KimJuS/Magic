@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="FISM.xsl"?>
+<M_history xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="FISM.xsd">
+	<magic>
+		<FISM>
+			<image file="FISM/FISM.jpg" width="600" height="300" />
+			<summary>Fédération Internationale des Sociétés Magiques. 영어로 쓰면 International Federation of Magic Societies, 해석하면 "국제 마술사 협회" 쯤 된다. 마술사들이 모여 종목별로 실력을 겨루는 대회. 3년마다 열리며, 마술 올림픽이라는 별칭이 있다. 3년마다 열리는데 왜 (4년제인) 올림픽이라고 부르냐는 물음에 마술로 1년을 통째로 사라지게 해서 그렇다는 농담이 있다.가장 최근의 행사는 2018년, 부산에서 열렸으며 다음 대회는 2021년 캐나다 퀘벡에서 열린다.</summary>
+			
+			<history>역사는 1937년의 프랑스 파리까지 올라가는데, 이 당시엔 ASAP(Association Syndicale des Artistes Prestigitaeurs, 요술가 협회)로서 시작했고 자체 월간지까지 두고 있었다. 이 모임의 부회장인 쥘 도텔 박사(Dr. Jules Dhotel)는 1939년 10월에 이 조직을 국제적으로 확대해 매년마다 마술사들끼리 교제를 갖고자 했다. 그러나 한 달 전인 1939년 9월에 나치 독일이 폴란드를 침공해 제2차 세계 대전이 발발하면서 중단됐다. 그러나 전후인 1946년, 암스테르담의 호텔에 유럽에서의 마술사 300여 명이 모여서 강의와 전시회, 공공 시연회 등을 가졌다. 그 당시엔 각각 부문을 나누지 않고 한 부문에만 시상을 하되 수상자를 늘렸다. 참고로 첫 수상자는 프랑스의 장 발통(Jean Valton), 스코틀랜드의 존 램지(John Ramsey), 그리고 (국적 추가 바람)의 플레츠키 부부(De Flezkis)이다.</history>			
+
+			<specific>대륙별 FISM 예선에서 수상한 사람들이 출전권을 얻는다. 스테이지 100명, 클로즈업 50명이 참가한다.모든 액트는 5분 이상 10분 미만으로 구성되어야 하며, 10분이 넘어가면 그 즉시 실격이 된다. 그 외에 심사위원들이 명백히 실력 미달이라고 인정하거나 관객과 짜고 하면 실격이다.기술, 표현력, 엔터테인먼트, 예술성, 독창성, 분위기의 6개 항목에 대해 100점 만점으로 심사하며 등수에 들기 위해선 일정 점수 이상을 얻어야 한다. 1위 없음으로 되어 있는 것은 해당 종목에서 1등을 한 참가자도 80점을 넘지 못했다는 의미. 각 종목별로 3등까지 시상하며, 1위를 한 마술사들은 "World Champion [종목] [년도]"라는 타이틀을 쓸 수 있다. 이렇게 각 종목에서 1등을 한 사람들이 모여 다시 경쟁을 해서 스테이지, 클로즈업에서 한명씩 그랑프리를 뽑는다. 일종의 종합우승. 추가로 "가장 독창적인 마술"과 "인벤션"을 시상하며, 공로상 개념으로 특별상을 시상한다</specific>
+		</FISM>
+	</magic>
+</M_history>

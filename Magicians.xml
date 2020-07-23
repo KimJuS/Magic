@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Magicians.xsl"?>
+<Magicians
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Magicians.xsd">
+    <Kinds>
+        <title>
+            <name> Charming Choi (최현우) </name>
+            <birth> 1978년 10월 28일 </birth>
+            <belong> RAON PLAY </belong>
+            <major> Mentalism, Close-Up </major>
+            <activity>
+                <act_1>2002 International SIM 3관왕</act_1>
+                <act_2>2009 FISM 오리지널리티 어워드</act_2>
+                <act_3>2012 FISM 최연소 심사위원</act_3>
+            </activity>
+            <image file="Magicians/Charming Choi.jpg" width="300" height="200" />
+        </title>
+        <title>
+            <name> Lee Eun Gyeol (이은결) </name>
+            <birth> 1981년 10월 02일 </birth>
+            <belong> MEDIA ASIA </belong>
+            <major> General, Illusion, Palor </major>
+            <activity>
+                <act_1>2001 UGM 세계 매직 대회 그랑프리</act_1>
+                <act_2>2006 FISM 제너럴매직부문 1위</act_2>
+                <act_3>2011 FISM 멀린상</act_3>
+            </activity>
+            <image file="Magicians/LeeEunGyeol.jpg" width="300" height="200" />
+        </title>
+        <title>
+            <name> ALT (이영우) </name>
+            <birth> No Data </birth>
+            <belong> SHOW DESIGN ENT. </belong>
+            <major> Card </major>
+            <activity>
+                <act_1>전 매직바 트릭 소속 마술사</act_1>
+                <act_2>다양한 마술 서적의 번역 및 저서</act_2>
+                <act_3></act_3>
+            </activity>
+            <image file="Magicians/ALT.jpg" width="300" height="200" />
+        </title>
+        <title>
+            <name> Han Seol Hui (한설희) </name>
+            <birth> 1988년 04월 10일 </birth>
+            <belong> CLOUD </belong>
+            <major> Manipulation </major>
+            <activity>
+                <act_1>2007 BIMF 스테이지 1위</act_1>
+                <act_2>2008 토리노 매직컨벤션 1위</act_2>
+                <act_3>2009 FISM 매니퓰레이션부문 1위</act_3>
+            </activity>
+            <image file="Magicians/HanSeolHui.jpg" width="300" height="200" />
+        </title>
+        <title>
+            <name> Lukas (이기석) </name>
+            <birth> 1986년 02월 12일 </birth>
+            <belong> SHOW DESIGN ENT. </belong>
+            <major> Manipulation </major>
+            <activity>
+                <act_1>BIMF 스테이지부문 1위</act_1>
+                <act_2>FISM ASIA 매니퓰레이션 1위</act_2>
+                <act_3>올해의 전문대학인 상</act_3>
+            </activity>
+            <image file="Magicians/LeeKiSeok.jpg" width="300" height="200" />
+        </title>
+        <title>
+            <name> RYO (백상민) </name>
+            <birth> 1978년 08월 10일 </birth>
+            <belong> SHOW DESIGN ENT. </belong>
+            <major> Mentalism </major>
+            <activity>
+                <act_1> 재팬컵 클로즈업 1위 </act_1>
+                <act_2></act_2>
+                <act_3></act_3>
+            </activity>
+            <image file="Magicians/RYO.jpg" width="300" height="200" />
+        </title>
+    </Kinds>
+</Magicians>
